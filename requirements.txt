@@ -1,0 +1,11 @@
+# demo (offline) deps
+numpy
+scikit-learn
+matplotlib
+
+# real-data mode (optional, heavier)
+# requests          # OpenAlex / Crossref API
+# pandas            # Retraction Watch CSV joins
+# torch             # GNN
+# torch-geometric   # GraphSAGE/GAT on ego-subgraphs
+# shap              # signature attribution

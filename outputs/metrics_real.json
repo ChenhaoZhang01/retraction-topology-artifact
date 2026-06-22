@@ -1,0 +1,27 @@
+{
+  "mode": "real-baseline-chunk1",
+  "n_retracted": 500,
+  "n_controls": 500,
+  "metadata_baseline_cv_auc": 0.630866,
+  "metadata_baseline_out_of_time_auc": 0.7226948778590815,
+  "oot_split_year": 2022,
+  "feature_importances": {
+    "title_len": 0.2930858636617434,
+    "is_english": 0.19173616833092758,
+    "n_refs": 0.18884197484994403,
+    "year": 0.1401156004952288,
+    "n_authors": 0.08762516102319642,
+    "n_institutions": 0.07241661202693483,
+    "n_countries": 0.026178619612024952
+  },
+  "features_used": [
+    "year",
+    "n_refs",
+    "n_authors",
+    "n_institutions",
+    "n_countries",
+    "title_len",
+    "is_english"
+  ],
+  "note": "This is the publication-time METADATA baseline the topological GNN must beat. Retraction Watch CSV saved as gold labels for the full ego-network + GraphSAGE run."
+}

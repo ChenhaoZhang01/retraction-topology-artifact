@@ -1,0 +1,31 @@
+{
+  "mode": "topology-vs-metadata",
+  "n_retracted": 225,
+  "n_controls": 190,
+  "headline_leakage_safe": {
+    "metadata_cv_auc": 0.5109473684210526,
+    "metadata+topology_cv_auc": 0.6205614035087719,
+    "cv_gain": 0.10961403508771927,
+    "metadata_oot_auc": 0.5015810276679842,
+    "metadata+topology_oot_auc": 0.6753862738052463,
+    "oot_gain": 0.17380524613726211,
+    "verdict": "clean topology adds signal"
+  },
+  "with_retraction_proximity_LEAKY": {
+    "cv_gain": 0.1863391812865498,
+    "oot_gain": 0.281099532878189,
+    "note": "retraction_proximity may use post-publication retractions; do not headline"
+  },
+  "topology_features_clean": [
+    "self_citation_rate",
+    "ref_year_std",
+    "ref_year_gap"
+  ],
+  "topology_features_full": [
+    "self_citation_rate",
+    "ref_year_std",
+    "ref_year_gap",
+    "retraction_proximity"
+  ],
+  "elapsed_sec": 75.6
+}
